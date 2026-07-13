@@ -1,6 +1,6 @@
 import './globals.css'
 
-const SITE_URL = 'https://www.kelvinkamau.co.ke'
+const SITE_URL = 'https://kelvin-kamau-kiambu.vercel.app/'
 const FULL_NAME = 'Kelvin Mwangi Kamau'
 const TITLE = 'Kelvin Mwangi Kamau | CECM Candidate – Kiambu County Government'
 const DESCRIPTION =
