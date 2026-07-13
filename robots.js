@@ -1,4 +1,4 @@
-const SITE_URL = 'https://www.kelvinkamau.co.ke'
+const SITE_URL = 'https://kelvin-kamau-kiambu.vercel.app/'
 
 export default function robots() {
   return {
