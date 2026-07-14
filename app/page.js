@@ -199,6 +199,9 @@ export default function Home() {
               <p>
                 As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver — and I hold myself to the same standard.
               </p>
+              <p>
+                [CECM -County Executive Committee Member is an Executive role within the County Administration similar to a Cabinet Secretary/Minister of the National/Federal Government.]
+              </p>
               <div className="about-pills">
                 {['PRSK Member', 'MCK Accredited Journalist', 'BCom Marketing – KU', 'Diploma PR – KU', 'IBM AI Certified', 'Data Analyst', 'SEO Specialist', 'Team Leader'].map(p => (
                   <span className="pill" key={p}>{p}</span>
