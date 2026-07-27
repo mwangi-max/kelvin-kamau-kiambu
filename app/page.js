@@ -136,7 +136,13 @@ export default function Home() {
       {/* ── HERO ── */}
       <section className="hero" aria-label="Hero section" id="hero">
         <div className="hero-left">
-          <p className="hero-eyebrow">CECM Candidate · Kiambu County Government</p>
+          <p className="hero-eyebrow">CECM Candidate ·    <a 
+      href="https://kiambu.go.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Kiambu County Government
+    </a></p>
           <h1 className="hero-name">
             Kelvin<br /><em>Mwangi</em><br />Kamau
           </h1>
