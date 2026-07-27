@@ -140,7 +140,13 @@ export default function Home() {
           <h1 className="hero-name">
             Kelvin<br /><em>Mwangi</em><br />Kamau
           </h1>
-          <p className="hero-role">BCom Marketing · MPRSK · Accredited Journalist (MCK)</p>
+          <p className="hero-role">BCom Marketing · MPRSK · Accredited Journalist    <a 
+      href="https://mediacouncil.or.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      (MCK)
+    </a></p>
           <p className="hero-tagline">
             A results-driven government communications professional and lifelong learner — combining digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
           </p>
