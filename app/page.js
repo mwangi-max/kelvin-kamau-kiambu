@@ -136,13 +136,8 @@ export default function Home() {
       {/* ── HERO ── */}
       <section className="hero" aria-label="Hero section" id="hero">
         <div className="hero-left">
-          <p className="hero-eyebrow">CECM Candidate ·    <a 
-      href="https://kiambu.go.ke/" 
-      target="_blank" 
-      rel="noopener noreferrer"
-    >
-      Kiambu County Government
-    </a></p>
+          <p className="hero-eyebrow">CECM Candidate ·  Kiambu County Government
+    </p>
           <h1 className="hero-name">
             Kelvin<br /><em>Mwangi</em><br />Kamau
           </h1>
@@ -224,13 +219,13 @@ export default function Home() {
     </a></strong>. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
               </p>
               <p>
-                Currently serving as Public Communication Officer at the <a 
+                Currently serving as Public Communication Officer at the <strong><a 
       href="https://kiambu.go.ke/" 
       target="_blank" 
       rel="noopener noreferrer"
     >
          County Government of Kiambu
-    </a>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
+    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
               </p>
               <p>
                 My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership — equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
