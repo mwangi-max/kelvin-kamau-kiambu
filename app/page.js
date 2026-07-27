@@ -190,7 +190,20 @@ export default function Home() {
               <h2 className="section-title">A Leader Forged in Public Service</h2>
               <div className="divider" />
               <p>
-                I am <strong>Kelvin Mwangi Kamau</strong> — a PRSK-certified Public Communications Professional, BCom Marketing graduate from Kenyatta University, and Accredited Journalist with the Media Council of Kenya. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
+                I am <strong>Kelvin Mwangi Kamau</strong> — a <strong><a 
+      href="https://www.prsk.co.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      PRSK
+    </a></strong>-certified Public Communications Professional, BCom Marketing graduate from <strong>
+           <a 
+      href="https://www.ku.ac.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Kenyatta University
+    </a></strong>, and Accredited Journalist with the Media Council of Kenya. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
               </p>
               <p>
                 Currently serving as Public Communication Officer at the <a 
@@ -211,13 +224,13 @@ export default function Home() {
                 [CECM -County Executive Committee Member is an Executive role within the County Administration similar to a Cabinet Secretary/Minister of the National/Federal Government.]
               </p>
               <p>
-                [Catch one of my educational journey story <a 
+                [Catch one of my educational journey story <strong><a 
       href="https://www.tuko.co.ke/people/family/613150-kenyatta-university-student-teased-diploma-emotional-graduates-degree/" 
       target="_blank" 
       rel="noopener noreferrer"
     >
-    here
-    </a>.]
+    HERE
+    </a></strong>.]
               </p>
               <div className="about-pills">
                 {['PRSK Member', 'MCK Accredited Journalist', 'BCom Marketing – KU', 'Diploma PR – KU', 'IBM AI Certified', 'Data Analyst', 'SEO Specialist', 'Team Leader'].map(p => (
