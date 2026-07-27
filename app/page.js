@@ -215,7 +215,13 @@ export default function Home() {
       rel="noopener noreferrer"
     >
       Kenyatta University
-    </a></strong>, and Accredited Journalist with the Media Council of Kenya. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
+    </a></strong>, and Accredited Journalist with the <strong><a 
+      href="https://mediacouncil.or.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Media Council of Kenya
+    </a></strong>. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
               </p>
               <p>
                 Currently serving as Public Communication Officer at the <a 
