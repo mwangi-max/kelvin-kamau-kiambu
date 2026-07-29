@@ -210,7 +210,7 @@ export default function Home() {
       rel="noopener noreferrer"
     >
       Kenyatta University
-    </a></strong>, and Accredited Journalist with the <strong><a 
+    </a></strong>, and an Accredited Journalist with the <strong><a 
       href="https://mediacouncil.or.ke/" 
       target="_blank" 
       rel="noopener noreferrer"
