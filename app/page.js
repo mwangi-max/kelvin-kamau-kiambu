@@ -154,7 +154,7 @@ export default function Home() {
         </div>
         <div className="hero-right">
           <img
-            src="/photos/kelvin-graduation.jpg"
+            src="/kelvin-graduation.jpg"
             alt="Kelvin Mwangi Kamau in graduation gown at Kenyatta University"
             className="hero-photo"
           />
@@ -176,7 +176,7 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-photo-wrap">
               <img
-                src="/photos/kelvin-formal.jpg"
+                src="/kelvin-formal.jpg"
                 alt="Kelvin Mwangi Kamau – formal portrait, PRSK-certified communications professional"
                 className="about-photo-main"
               />
