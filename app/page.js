@@ -364,14 +364,14 @@ export default function Home() {
           <h2 className="section-title on-dark">The Journey in Pictures</h2>
           <div className="divider" />
           <div className="gallery-grid">
-            <img src="/photos/kelvin-graduation.jpg"   alt="Kelvin Mwangi Kamau graduating from Kenyatta University" className="gallery-img wide" />
-            <img src="/photos/kelvin-formal.jpg"       alt="Kelvin Kamau formal professional portrait" className="gallery-img" />
-            <img src="/photos/kelvin-red.jpg"          alt="Kelvin Mwangi Kamau in red shirt – thoughtful pose" className="gallery-img" />
-            <img src="/photos/kelvin-outdoor.jpg"      alt="Kelvin Kamau at Nairobi City County Governor's Office" className="gallery-img" />
-            <img src="/photos/kelvin-striped.jpg"      alt="Kelvin Kamau professional portrait in striped shirt" className="gallery-img" />
-            <img src="/photos/kelvin-suit.jpg"         alt="Kelvin Mwangi Kamau in suit and red tie" className="gallery-img" />
-            <img src="/photos/kelvin-glasses.jpg"      alt="Kelvin Kamau wearing glasses – professional headshot" className="gallery-img" />
-            <img src="/photos/kelvin-kamau-holding-microphone.jpg"      alt="Kelvin Kamau adressing a gathering – professional headshot" className="gallery-img" />
+            <img src="/kelvin-graduation.jpg"   alt="Kelvin Mwangi Kamau graduating from Kenyatta University" className="gallery-img wide" />
+            <img src="/kelvin-formal.jpg"       alt="Kelvin Kamau formal professional portrait" className="gallery-img" />
+            <img src="/kelvin-red.jpg"          alt="Kelvin Mwangi Kamau in red shirt – thoughtful pose" className="gallery-img" />
+            <img src="/kelvin-outdoor.jpg"      alt="Kelvin Kamau at Nairobi City County Governor's Office" className="gallery-img" />
+            <img src="/kelvin-striped.jpg"      alt="Kelvin Kamau professional portrait in striped shirt" className="gallery-img" />
+            <img src="/kelvin-suit.jpg"         alt="Kelvin Mwangi Kamau in suit and red tie" className="gallery-img" />
+            <img src="/kelvin-glasses.jpg"      alt="Kelvin Kamau wearing glasses – professional headshot" className="gallery-img" />
+            <img src="/kelvin-kamau-holding-microphone.jpg"      alt="Kelvin Kamau adressing a gathering – professional headshot" className="gallery-img" />
           </div>
         </div>
       </section>
