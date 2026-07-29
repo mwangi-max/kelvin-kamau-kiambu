@@ -9,6 +9,7 @@ const LINKEDIN = 'https://www.linkedin.com/in/kelvin-kamau-mprsk-7a318424b'
 const TWITTER  = 'https://x.com/KELVINMKENYA3'
 const FACEBOOK = 'https://www.facebook.com/profile.php?id=61588521846298'
 const TIKTOK   = 'https://www.tiktok.com/@kamau5735'
+const INSTAGRAM = 'https://www.instagram.com/k.kelvinmwangi'
 
 const PORTFOLIOS = [
   { icon: '🌟', title: 'Youth Affairs', featured: true, tag: 'Preferred Portfolio', desc: 'Championing skills development, youth employment, entrepreneurship, and leadership programmes that unlock the full potential of Kiambu\'s young population — Kenya\'s most powerful resource.' },
@@ -110,6 +111,7 @@ export default function Home() {
           <a href={LINKEDIN} target="_blank" rel="noreferrer">LinkedIn</a>
           <a href={TWITTER}  target="_blank" rel="noreferrer">X / Twitter</a>
           <a href={FACEBOOK} target="_blank" rel="noreferrer">Facebook</a>
+          <a href={INSTAGRAM} target="_blank" rel="noreferrer">Instagram</a>
         </div>
       </div>
 
@@ -134,11 +136,18 @@ export default function Home() {
       {/* ── HERO ── */}
       <section className="hero" aria-label="Hero section" id="hero">
         <div className="hero-left">
-          <p className="hero-eyebrow">CECM Candidate · Kiambu County Government</p>
+          <p className="hero-eyebrow">CECM Candidate ·  Kiambu County Government
+    </p>
           <h1 className="hero-name">
             Kelvin<br /><em>Mwangi</em><br />Kamau
           </h1>
-          <p className="hero-role">BCom Marketing · MPRSK · Accredited Journalist (MCK)</p>
+          <p className="hero-role">BCom Marketing · MPRSK · Accredited Journalist    <a 
+      href="https://mediacouncil.or.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      (MCK)
+    </a></p>
           <p className="hero-tagline">
             A results-driven government communications professional and lifelong learner — combining digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
           </p>
@@ -188,10 +197,35 @@ export default function Home() {
               <h2 className="section-title">A Leader Forged in Public Service</h2>
               <div className="divider" />
               <p>
-                I am <strong>Kelvin Mwangi Kamau</strong> — a PRSK-certified Public Communications Professional, BCom Marketing graduate from Kenyatta University, and Accredited Journalist with the Media Council of Kenya. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
+                I am <strong>Kelvin Mwangi Kamau</strong> — a <strong><a 
+      href="https://www.prsk.co.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      PRSK
+    </a></strong>-certified Public Communications Professional, BCom Marketing graduate from <strong>
+           <a 
+      href="https://www.ku.ac.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Kenyatta University
+    </a></strong>, and an Accredited Journalist with the <strong><a 
+      href="https://mediacouncil.or.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Media Council of Kenya
+    </a></strong>. My career has been built at the intersection of government, digital strategy, and community leadership, giving me a rare, cross-disciplinary perspective on what makes public service truly work.
               </p>
               <p>
-                Currently serving as Public Communication Officer at the County Government of Kiambu, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
+                Currently serving as Public Communication Officer at the <strong><a 
+      href="https://kiambu.go.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+         County Government of Kiambu
+    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
               </p>
               <p>
                 My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership — equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
@@ -201,6 +235,15 @@ export default function Home() {
               </p>
               <p>
                 [CECM -County Executive Committee Member is an Executive role within the County Administration similar to a Cabinet Secretary/Minister of the National/Federal Government.]
+              </p>
+              <p>
+                [Catch one of my educational journey story <strong><a 
+      href="https://www.tuko.co.ke/people/family/613150-kenyatta-university-student-teased-diploma-emotional-graduates-degree/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+    HERE
+    </a></strong>.]
               </p>
               <div className="about-pills">
                 {['PRSK Member', 'MCK Accredited Journalist', 'BCom Marketing – KU', 'Diploma PR – KU', 'IBM AI Certified', 'Data Analyst', 'SEO Specialist', 'Team Leader'].map(p => (
@@ -411,6 +454,7 @@ export default function Home() {
             <a href={LINKEDIN} target="_blank" rel="noreferrer">LinkedIn</a>
             <a href={TWITTER}  target="_blank" rel="noreferrer">X / Twitter</a>
             <a href={FACEBOOK} target="_blank" rel="noreferrer">Facebook</a>
+            <a href={INSTAGRAM} target="_blank" rel="noreferrer">Instagram</a>
           </div>
           <p>© 2026 <strong>Kelvin Mwangi Kamau</strong> · CECM Candidate · County Government of Kiambu · All Rights Reserved</p>
           <p style={{ marginTop: '0.4rem' }}>kelvinkam24@gmail.com · +254 724 557 035 · Kiambu County, Kenya</p>
@@ -421,7 +465,13 @@ export default function Home() {
       <noscript>
         <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
           <h1>Kelvin Mwangi Kamau – CECM Candidate, County Government of Kiambu</h1>
-          <p>PRSK-certified Public Communications Professional and BCom Marketing graduate seeking the County Executive Committee Member (CECM) position in Kiambu County, Kenya. Preferred portfolios: Youth Affairs, Communications, Administration.</p>
+          <p>   <a 
+      href="https://www.prsk.co.ke/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      PRSK
+    </a>-certified Public Communications Professional and BCom Marketing graduate seeking the County Executive Committee Member (CECM) position in Kiambu County, Kenya. Preferred portfolios: Youth Affairs, Communications, Administration.</p>
           <p>Email: kelvinkam24@gmail.com | Phone: +254 724 557 035 | LinkedIn: linkedin.com/in/kelvin-kamau-mprsk-7a318424b</p>
         </div>
       </noscript>
