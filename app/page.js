@@ -162,10 +162,11 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-right">
-          <img
+          <Image
             src="/kelvin-graduation.jpg"
             alt="Kelvin Mwangi Kamau in graduation gown at Kenyatta University"
             className="hero-photo"
+            priority="true"
           />
           <div className="hero-photo-overlay" />
         </div>
@@ -184,10 +185,11 @@ export default function Home() {
         <div className="container">
           <div className="about-grid">
             <div className="about-photo-wrap">
-              <img
+              <Image
                 src="/kelvin-formal.jpg"
                 alt="Kelvin Mwangi Kamau – formal portrait, PRSK-certified communications professional"
                 className="about-photo-main"
+                priority="true"
               />
               <div className="about-photo-grad" />
               <div className="about-badge">MPRSK · MCK Accredited</div>
@@ -364,14 +366,14 @@ export default function Home() {
           <h2 className="section-title on-dark">The Journey in Pictures</h2>
           <div className="divider" />
           <div className="gallery-grid">
-            <img src="/kelvin-graduation.jpg"   alt="Kelvin Mwangi Kamau graduating from Kenyatta University" className="gallery-img wide" />
-            <img src="/kelvin-formal.jpg"       alt="Kelvin Kamau formal professional portrait" className="gallery-img" />
-            <img src="/kelvin-red.jpg"          alt="Kelvin Mwangi Kamau in red shirt – thoughtful pose" className="gallery-img" />
-            <img src="/kelvin-outdoor.jpg"      alt="Kelvin Kamau at Nairobi City County Governor's Office" className="gallery-img" />
-            <img src="/kelvin-striped.jpg"      alt="Kelvin Kamau professional portrait in striped shirt" className="gallery-img" />
-            <img src="/kelvin-suit.jpg"         alt="Kelvin Mwangi Kamau in suit and red tie" className="gallery-img" />
-            <img src="/kelvin-glasses.jpg"      alt="Kelvin Kamau wearing glasses – professional headshot" className="gallery-img" />
-            <img src="/kelvin-kamau-holding-microphone.jpg"      alt="Kelvin Kamau adressing a gathering – professional headshot" className="gallery-img" />
+            <Image src="/kelvin-graduation.jpg"   alt="Kelvin Mwangi Kamau graduating from Kenyatta University" className="gallery-img wide" priority={true} />
+            <Image src="/kelvin-formal.jpg"       alt="Kelvin Kamau formal professional portrait" className="gallery-img" />
+            <Image src="/kelvin-red.jpg"          alt="Kelvin Mwangi Kamau in red shirt – thoughtful pose" className="gallery-img" />
+            <Image src="/kelvin-outdoor.jpg"      alt="Kelvin Kamau at Nairobi City County Governor's Office" className="gallery-img" />
+            <Image src="/kelvin-striped.jpg"      alt="Kelvin Kamau professional portrait in striped shirt" className="gallery-img" />
+            <Image src="/kelvin-suit.jpg"         alt="Kelvin Mwangi Kamau in suit and red tie" className="gallery-img" />
+            <Image src="/kelvin-glasses.jpg"      alt="Kelvin Kamau wearing glasses – professional headshot" className="gallery-img" />
+            <Image src="/kelvin-kamau-holding-microphone.jpg"      alt="Kelvin Kamau adressing a gathering – professional headshot" className="gallery-img" />
           </div>
         </div>
       </section>
