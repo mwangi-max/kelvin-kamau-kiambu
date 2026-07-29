@@ -237,12 +237,12 @@ export default function Home() {
                 [CECM -County Executive Committee Member is an Executive role within the County Administration similar to a Cabinet Secretary/Minister of the National/Federal Government.]
               </p>
               <p>
-                [Catch one of my educational journey story <strong><a 
+                [Catch one of my <strong><a 
       href="https://www.tuko.co.ke/people/family/613150-kenyatta-university-student-teased-diploma-emotional-graduates-degree/" 
       target="_blank" 
       rel="noopener noreferrer"
     >
-    HERE
+    educational journey story here
     </a></strong>.]
               </p>
               <div className="about-pills">
@@ -386,6 +386,7 @@ export default function Home() {
               <a className="social-btn twitter"  href={TWITTER}  target="_blank" rel="noreferrer" aria-label="X Twitter profile">𝕏 Twitter / X</a>
               <a className="social-btn facebook" href={FACEBOOK} target="_blank" rel="noreferrer" aria-label="Facebook profile">📘 Facebook</a>
               <a className="social-btn tiktok"   href={TIKTOK}   target="_blank" rel="noreferrer" aria-label="TikTok profile">🎵 TikTok</a>
+              <a className="social-btn linkedin" href={INSTAGRAM} target="_blank" rel="noreferrer" aria-label="Instagram profile">🔗 Instagram</a>
             </div>
           </div>
         </div>
