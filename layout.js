@@ -1,10 +1,6 @@
 import './globals.css'
 
-<<<<<<< HEAD
 const SITE_URL = 'https://kelvin-kamau-kiambu.vercel.app'
-=======
-const SITE_URL =  'https://kelvin-kamau-kiambu.vercel.app'
->>>>>>> 2ac402547600a4afac6baa6982c5e77561d3d99c
 const FULL_NAME = 'Kelvin Mwangi Kamau'
 const TITLE = 'Kelvin Mwangi Kamau | CECM Candidate – Kiambu County Government'
 const DESCRIPTION =
@@ -103,7 +99,7 @@ const jsonLd = {
       url: SITE_URL,
       image: {
         '@type': 'ImageObject',
-        url: `${SITE_URL}/photos/kelvin-formal.jpg`,
+        url: `${SITE_URL}/kelvin-formal.jpg`,
         caption: 'Kelvin Mwangi Kamau – CECM Candidate, Kiambu County',
       },
       sameAs: [
