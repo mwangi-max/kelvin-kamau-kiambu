@@ -218,6 +218,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <meta name="theme-color" content="#0d2b1a" />
+        <meta property="og:image" content="https://kelvin-kamau-kiambu.vercel.app/og-image.jpg"/>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
