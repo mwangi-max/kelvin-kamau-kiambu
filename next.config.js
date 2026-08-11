@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for Vercel
-  output: 'export',
+   compress: true,
+  images: {
+    unoptimized: true,
+  },
 
   // Optimise images
   images: {
