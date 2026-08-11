@@ -218,6 +218,8 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <meta name="theme-color" content="#0d2b1a" />
+       
+        <meta property="og:title" content="Kelvin Mwangi Kamau | CECM Candidate, Kiambu County" />
         <meta property="og:image" content="https://kelvin-kamau-kiambu.vercel.app/og-image.jpg"/>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
