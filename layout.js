@@ -192,6 +192,17 @@ const jsonLd = {
   ],
 }
 
+// next.config.js — REMOVE the output line entirely
+const nextConfig = {
+  // DELETE THIS LINE → output: 'export',
+  images: {
+    unoptimized: false, // can now re-enable optimisation
+  },
+  compress: true,
+}
+
+module.exports = nextConfig
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en-KE">
