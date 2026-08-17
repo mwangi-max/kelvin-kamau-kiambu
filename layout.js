@@ -28,7 +28,6 @@ export const metadata = {
     'Kiambu County leadership',
     'Kelvin Kamau MPRSK',
     'Kenyatta University,
-    'Kamau Mwangi,
     'Kelvin',
   ],
   authors: [{ name: FULL_NAME, url: SITE_URL }],
