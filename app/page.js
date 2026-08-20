@@ -235,6 +235,7 @@ export default function Home() {
               <p>
                 As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver — and I hold myself to the same standard.
               </p>
+              <p>My first 100 days will be about listening, auditing, acting and delivering measurable results.</p>
               <p>
                 [CECM -County Executive Committee Member is an Executive role within the County Administration similar to a Cabinet Secretary/Minister of the National/Federal Government.]
               </p>
