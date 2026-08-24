@@ -150,7 +150,7 @@ export default function Home() {
       (MCK)
     </a></p>
           <p className="hero-tagline">
-            A results-driven government communications professional and lifelong learner — combining digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
+            A results-driven government communications professional and lifelong learner who combines digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
           </p>
           <div className="hero-btns">
             <button className="btn-gold" onClick={() => scrollTo('portfolios')}>View My Portfolios</button>
