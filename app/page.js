@@ -69,6 +69,7 @@ const CERT_GROUPS = [
     certs: [
       { icon: '🏅', name: 'Leadership and Management', issuer: 'Kenyatta University, 2020–2021' },
       { icon: '🧠', name: 'Leadership and Emotional Intelligence', issuer: 'Indian School of Business (ISB) via Coursera, 2020' },
+      { icon: '🧠', name: 'Introduction to Behavioral Science in Public Policy', issuer: 'World Bank Group - Institute for Economic Development, 2026' },
     ],
   },
 ]
