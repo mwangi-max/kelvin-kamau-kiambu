@@ -200,7 +200,7 @@ export default function Home() {
               <h2 className="section-title">A Leader Forged in Public Service</h2>
               <div className="divider" />
               <p>
-                I am <strong>Kelvin Mwangi Kamau</strong> — a <strong><a 
+                I am <strong>Kelvin Mwangi Kamau</strong>, a <strong><a 
       href="https://www.prsk.co.ke/" 
       target="_blank" 
       rel="noopener noreferrer"
