@@ -228,13 +228,13 @@ export default function Home() {
       rel="noopener noreferrer"
     >
          County Government of Kiambu
-    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
+    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs not from a boardroom, but from the ground.
               </p>
               <p>
-                My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership — equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
+                My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership, equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
               </p>
               <p>
-                As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver — and I hold myself to the same standard.
+                As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver and I hold myself to the same standard.
               </p>
               <p>My first 100 days will be about listening, auditing, acting and delivering measurable results.</p>
               <p>
