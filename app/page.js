@@ -39,6 +39,7 @@ const CERT_GROUPS = [
       { icon: '📊', name: 'Data Analysis Certification', issuer: 'Insdev Consulting, 2026' },
       { icon: '📈', name: 'Managing Data Analysis', issuer: 'Johns Hopkins University via Coursera, 2020' },
       { icon: '📋', name: 'Excel Skills for Business: Essentials', issuer: 'Macquarie University via Coursera, 2020' },
+      { icon: '📈', name: 'Understanding Citizen Data for Better Decision-Making', issuer: 'World Bank Group - Data Academy', 2026' },
     ],
   },
   {
