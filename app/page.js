@@ -69,6 +69,7 @@ const CERT_GROUPS = [
     certs: [
       { icon: '🏅', name: 'Leadership and Management', issuer: 'Kenyatta University, 2020–2021' },
       { icon: '🧠', name: 'Leadership and Emotional Intelligence', issuer: 'Indian School of Business (ISB) via Coursera, 2020' },
+      { icon: '🧠', name: 'Introduction to Behavioral Science in Public Policy', issuer: 'World Bank Group - Institute for Economic Development, 2026' },
     ],
   },
 ]
@@ -149,7 +150,7 @@ export default function Home() {
       (MCK)
     </a></p>
           <p className="hero-tagline">
-            A results-driven government communications professional and lifelong learner — combining digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
+            A results-driven government communications professional and lifelong learner who combines digital strategy, data analysis, AI literacy, and proven team leadership to deliver transformative public service across Kiambu County.
           </p>
           <div className="hero-btns">
             <button className="btn-gold" onClick={() => scrollTo('portfolios')}>View My Portfolios</button>
@@ -199,7 +200,7 @@ export default function Home() {
               <h2 className="section-title">A Leader Forged in Public Service</h2>
               <div className="divider" />
               <p>
-                I am <strong>Kelvin Mwangi Kamau</strong> — a <strong><a 
+                I am <strong>Kelvin Mwangi Kamau</strong>, a <strong><a 
       href="https://www.prsk.co.ke/" 
       target="_blank" 
       rel="noopener noreferrer"
@@ -227,13 +228,13 @@ export default function Home() {
       rel="noopener noreferrer"
     >
          County Government of Kiambu
-    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs — not from a boardroom, but from the ground.
+    </a></strong>, I have spent over four years translating complex government policy into compelling public narratives, managing community engagement across digital platforms, and producing professional multimedia content that connects citizens to their county. I understand Kiambu's needs not from a boardroom, but from the ground.
               </p>
               <p>
-                My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership — equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
+                My commitment to lifelong learning has driven me to acquire 14+ professional certifications across artificial intelligence, data analysis, cybersecurity, web development, SEO, and leadership, equipping me with modern tools that can make Kiambu County's administration smarter, faster, and more accountable.
               </p>
               <p>
-                As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver — and I hold myself to the same standard.
+                As CECM, I will bring disciplined management, evidence-based decision-making, and a servant's heart to whichever portfolio I am entrusted with. I lead teams that deliver and I hold myself to the same standard.
               </p>
               <p>My first 100 days will be about listening, auditing, acting and delivering measurable results.</p>
               <p>
