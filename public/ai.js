@@ -1,4 +1,3 @@
-const SITE_URL = 'https://kelvin-kamau-kiambu.vercel.app/'
 
 export default function ai() {
   "results": [
