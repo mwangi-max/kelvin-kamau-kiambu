@@ -438,7 +438,7 @@ export default function Home() {
         <button class="post-btn" onclick="openPost('youth-employment-policy')">
           Read the full article
         </button>
-      </article> -->
+      </article>
 
     </div>
   </div>
@@ -492,10 +492,10 @@ export default function Home() {
         <p>Add your section on national equitable share transfers, local revenue, and donor/grant funding.</p>
         <h4>Where the Money Goes</h4>
         <p>Add your section on recurrent vs. development expenditure, and how residents can track it.</p>
-      </div> -->
+      </div>
 
       <!-- FULL TEXT: youth-employment-policy -->
-      <!-- <div class="post-full" data-post-full="youth-employment-policy">
+      <div class="post-full" data-post-full="youth-employment-policy">
         <span class="post-tag">Youth Affairs</span>
         <h2>What Real Youth Employment Policy Looks Like</h2>
         <p>
@@ -508,7 +508,7 @@ export default function Home() {
         <p>Add your section here.</p>
         <h4>Capital and Market Access</h4>
         <p>Add your section here.</p>
-      </div> -->
+      </div>
 
     </div>
   </div>
