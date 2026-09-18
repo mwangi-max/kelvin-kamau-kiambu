@@ -102,6 +102,7 @@ export default function Home() {
     document.body.style.overflow = 'hidden';
     overlay.querySelector('.post-close').focus();
   }
+  
 
   const closePost = () => {
     var overlay = document.getElementById('postOverlay');
