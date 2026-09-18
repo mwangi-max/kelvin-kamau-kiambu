@@ -94,29 +94,7 @@ export default function Home() {
     setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }), 80)
   }
 
-  function openPost(postId) {
-    document.querySelectorAll('.post-full').forEach(function (el) {
-      el.classList.toggle('is-active', el.dataset.postFull === postId);
-    });
-    var overlay = document.getElementById('postOverlay');
-    overlay.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
-    overlay.querySelector('.post-close').focus();
-  }
-
-  function closePost() {
-    var overlay = document.getElementById('postOverlay');
-    overlay.classList.remove('is-open');
-    document.body.style.overflow = '';
-  }
-
-  function closePostOnBackdrop(event) {
-    if (event.target.id === 'postOverlay') closePost();
-  }
-
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') closePost();
-  });
+ 
 
  
 
