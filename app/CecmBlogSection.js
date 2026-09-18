@@ -36,21 +36,15 @@ const POSTS = [
         </p>
         <h4>Policy Leadership</h4>
         <p>
-          Replace this with your own detailed write-up: how a CECM sets
-          departmental policy direction, aligns it with the County
-          Integrated Development Plan (CIDP), and reports to the Governor
-          and County Assembly.
+          (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
         <h4>Budget &amp; Resource Oversight</h4>
         <p>
-          Add your explanation of the CECM's role in preparing departmental
-          budgets, defending them before the Assembly, and ensuring funds
-          are spent on approved priorities.
+           (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
         <h4>Public Accountability</h4>
         <p>
-          Add your notes on answering to County Assembly committees, public
-          participation obligations, and performance reporting.
+           (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
       </>
     ),
@@ -65,20 +59,15 @@ const POSTS = [
     body: (
       <>
         <p>
-          Replace this placeholder with your full write-up on the county
-          budget cycle — from ward-level public participation forums,
-          through the County Fiscal Strategy Paper, to the final
-          Appropriation Act passed by the County Assembly.
+          (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
         <h4>Where the Money Comes From</h4>
         <p>
-          Add your section on national equitable share transfers, local
-          revenue, and donor/grant funding.
+           (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
         <h4>Where the Money Goes</h4>
         <p>
-          Add your section on recurrent vs. development expenditure, and
-          how residents can track it.
+           (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
       </>
     ),
@@ -93,15 +82,12 @@ const POSTS = [
     body: (
       <>
         <p>
-          Replace this placeholder with your full write-up on practical
-          youth employment interventions — skills programmes, access to
-          county tenders, entrepreneurship support, and partnerships with
-          the private sector.
+           (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)
         </p>
         <h4>Skills That Match the Market</h4>
-        <p>Add your section here.</p>
+        <p> (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)</p>
         <h4>Capital and Market Access</h4>
-        <p>Add your section here.</p>
+        <p> (Content Loading - Kelvin Mwangi Kamau - CECM Candindate)</p>
       </>
     ),
   },
