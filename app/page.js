@@ -93,7 +93,7 @@ export default function Home() {
     setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }), 80)
   }
 
-  const openPost = (postId) => {
+  function openPost(postId){
     document.querySelectorAll('.post-full').forEach(function (el) {
       el.classList.toggle('is-active', el.dataset.postFull === postId);
     });
@@ -103,7 +103,7 @@ export default function Home() {
     overlay.querySelector('.post-close').focus();
   }
 
-  const closePost = () => {
+  function closePost(){
   var overlay = document.getElementById('postOverlay');
   if (overlay) overlay.classList.remove('is-open');
   document.body.style.overflow = '';
