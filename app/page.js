@@ -447,7 +447,7 @@ export default function Home() {
     <div className="post-modal" role="dialog" aria-modal="true" aria-labelledby="postModalTitle">
       <button className="post-close" onclick="closePost()" aria-label="Close article">×</button>
 
-      <!-- FULL TEXT: cecm-duties -->
+{/*-- FULL TEXT: cecm-duties --*/}
       <div className="post-full" data-post-full="cecm-duties">
         <span className="post-tag">County Governance</span>
         <h2 id="postModalTitle">The Duties and Responsibilities of a CECM</h2>
@@ -477,7 +477,7 @@ export default function Home() {
         </p>
       </div>
 
-      <!-- FULL TEXT: how-county-budget-works-->
+{/*-- FULL TEXT: how-county-budget-works--*/}
       <div className="post-full" data-post-full="how-county-budget-works">
         <span className="post-tag">Public Finance</span>
         <h2>How Kiambu's County Budget Actually Works</h2>
@@ -493,7 +493,7 @@ export default function Home() {
         <p>Add your section on recurrent vs. development expenditure, and how residents can track it.</p>
       </div>
 
-      <!-- FULL TEXT: youth-employment-policy -->
+{/*-- FULL TEXT: youth-employment-policy --*/}
       <div className="post-full" data-post-full="youth-employment-policy">
         <span className="post-tag">Youth Affairs</span>
         <h2>What Real Youth Employment Policy Looks Like</h2>
