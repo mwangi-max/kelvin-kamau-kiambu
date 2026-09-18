@@ -386,6 +386,137 @@ export default function Home() {
         </div>
       </section>
 
+<section id="insights" className="insights-section">
+  <div className="insights-container">
+
+    <div className="insights-header">
+      <span className="insights-kicker">Notes from the Field</span>
+      <h2 className="insights-title">Understanding County <em>Government</em> Up Close</h2>
+      <p className="insights-intro">
+        Plain-language explainers on how Kiambu County works — the roles,
+        the responsibilities, and the decisions behind the headlines.
+      </p>
+    </div>
+
+    <div className="post-grid">
+
+      <!-- POST 1 -->
+      <article className="post-card" data-post="cecm-duties">
+        <span className="post-icon" aria-hidden="true">🏛️</span>
+        <span className="post-tag">County Governance</span>
+        <h3 className="post-title">The Duties and Responsibilities of a CECM</h3>
+        <p className="post-excerpt">
+          A County Executive Committee Member carries far more than a title —
+          here's what the role actually involves, day to day and at the
+          policy table.
+        </p>
+        <button className="post-btn" onclick="openPost('cecm-duties')">
+          Read the full article
+        </button>
+      </article>
+
+      <!-- POST 2
+      <article class="post-card" data-post="how-county-budget-works">
+        <span class="post-icon" aria-hidden="true">📊</span>
+        <span class="post-tag">Public Finance</span>
+        <h3 class="post-title">How Kiambu's County Budget Actually Works</h3>
+        <p class="post-excerpt">
+          From ward-level priorities to the final appropriation — tracing the
+          journey of public money before it reaches a project near you.
+        </p>
+        <button class="post-btn" onclick="openPost('how-county-budget-works')">
+          Read the full article
+        </button>
+      </article> -->
+
+      <!-- POST 3 -->
+      <!-- <article class="post-card" data-post="youth-employment-policy">
+        <span class="post-icon" aria-hidden="true">🌟</span>
+        <span class="post-tag">Youth Affairs</span>
+        <h3 class="post-title">What Real Youth Employment Policy Looks Like</h3>
+        <p class="post-excerpt">
+          Beyond slogans: the practical levers a county government can pull
+          to open doors for young people in Kiambu.
+        </p>
+        <button class="post-btn" onclick="openPost('youth-employment-policy')">
+          Read the full article
+        </button>
+      </article> -->
+
+    </div>
+  </div>
+
+  <!-- FULL-ARTICLE OVERLAY (shared by all posts) -->
+  <div class="post-overlay" id="postOverlay" onclick="closePostOnBackdrop(event)">
+    <div class="post-modal" role="dialog" aria-modal="true" aria-labelledby="postModalTitle">
+      <button class="post-close" onclick="closePost()" aria-label="Close article">×</button>
+
+      <!-- FULL TEXT: cecm-duties -->
+      <div class="post-full" data-post-full="cecm-duties">
+        <span class="post-tag">County Governance</span>
+        <h2 id="postModalTitle">The Duties and Responsibilities of a CECM</h2>
+        <p>
+          A County Executive Committee Member (CECM) is the county-level
+          equivalent of a Cabinet Secretary — a Minister — appointed by the
+          Governor and vetted by the County Assembly to run a specific
+          docket, such as Finance, Youth Affairs, or Communications.
+        </p>
+        <h4>Policy Leadership</h4>
+        <p>
+          Replace this with your own detailed write-up: how a CECM sets
+          departmental policy direction, aligns it with the County
+          Integrated Development Plan (CIDP), and reports to the Governor
+          and County Assembly.
+        </p>
+        <h4>Budget & Resource Oversight</h4>
+        <p>
+          Add your explanation of the CECM's role in preparing departmental
+          budgets, defending them before the Assembly, and ensuring funds
+          are spent on approved priorities.
+        </p>
+        <h4>Public Accountability</h4>
+        <p>
+          Add your notes on answering to County Assembly committees, public
+          participation obligations, and performance reporting.
+        </p>
+      </div>
+
+      <!-- FULL TEXT: how-county-budget-works--
+      <div class="post-full" data-post-full="how-county-budget-works">
+        <span class="post-tag">Public Finance</span>
+        <h2>How Kiambu's County Budget Actually Works</h2>
+        <p>
+          Replace this placeholder with your full write-up on the county
+          budget cycle — from ward-level public participation forums,
+          through the County Fiscal Strategy Paper, to the final
+          Appropriation Act passed by the County Assembly.
+        </p>
+        <h4>Where the Money Comes From</h4>
+        <p>Add your section on national equitable share transfers, local revenue, and donor/grant funding.</p>
+        <h4>Where the Money Goes</h4>
+        <p>Add your section on recurrent vs. development expenditure, and how residents can track it.</p>
+      </div> -->
+
+      <!-- FULL TEXT: youth-employment-policy -->
+      <!-- <div class="post-full" data-post-full="youth-employment-policy">
+        <span class="post-tag">Youth Affairs</span>
+        <h2>What Real Youth Employment Policy Looks Like</h2>
+        <p>
+          Replace this placeholder with your full write-up on practical
+          youth employment interventions — skills programmes, access to
+          county tenders, entrepreneurship support, and partnerships with
+          the private sector.
+        </p>
+        <h4>Skills That Match the Market</h4>
+        <p>Add your section here.</p>
+        <h4>Capital and Market Access</h4>
+        <p>Add your section here.</p>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
       {/* ── GALLERY ── */}
       <section className="gallery section" id="gallery" aria-label="Photo gallery">
         <div className="container">
