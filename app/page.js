@@ -413,29 +413,29 @@ export default function Home() {
         </button>
       </article>
 
-      <article class="post-card" data-post="how-county-budget-works">
-        <span class="post-icon" aria-hidden="true">📊</span>
-        <span class="post-tag">Public Finance</span>
-        <h3 class="post-title">How Kiambu's County Budget Actually Works</h3>
-        <p class="post-excerpt">
+      <article className="post-card" data-post="how-county-budget-works">
+        <span className="post-icon" aria-hidden="true">📊</span>
+        <span className="post-tag">Public Finance</span>
+        <h3 className="post-title">How Kiambu's County Budget Actually Works</h3>
+        <p className="post-excerpt">
           From ward-level priorities to the final appropriation — tracing the
           journey of public money before it reaches a project near you.
         </p>
-        <button class="post-btn" onclick="openPost('how-county-budget-works')">
+        <button className="post-btn" onclick="openPost('how-county-budget-works')">
           Read the full article
         </button>
       </article> 
 
       
-      <article class="post-card" data-post="youth-employment-policy">
-        <span class="post-icon" aria-hidden="true">🌟</span>
-        <span class="post-tag">Youth Affairs</span>
-        <h3 class="post-title">What Real Youth Employment Policy Looks Like</h3>
-        <p class="post-excerpt">
+      <article className="post-card" data-post="youth-employment-policy">
+        <span className="post-icon" aria-hidden="true">🌟</span>
+        <span className="post-tag">Youth Affairs</span>
+        <h3 className="post-title">What Real Youth Employment Policy Looks Like</h3>
+        <p className="post-excerpt">
           Beyond slogans: the practical levers a county government can pull
-          to open doors for young people in Kiambu.
+          to open doors young people in Kiambu.
         </p>
-        <button class="post-btn" onclick="openPost('youth-employment-policy')">
+        <button className="post-btn" onclick="openPost('youth-employment-policy')">
           Read the full article
         </button>
       </article>
@@ -443,23 +443,23 @@ export default function Home() {
     </div>
   </div>
 
-  <div class="post-overlay" id="postOverlay" onclick="closePostOnBackdrop(event)">
-    <div class="post-modal" role="dialog" aria-modal="true" aria-labelledby="postModalTitle">
-      <button class="post-close" onclick="closePost()" aria-label="Close article">×</button>
+  <div className="post-overlay" id="postOverlay" onclick="closePostOnBackdrop(event)">
+    <div className="post-modal" role="dialog" aria-modal="true" aria-labelledby="postModalTitle">
+      <button className="post-close" onclick="closePost()" aria-label="Close article">×</button>
 
       <!-- FULL TEXT: cecm-duties -->
-      <div class="post-full" data-post-full="cecm-duties">
-        <span class="post-tag">County Governance</span>
+      <div className="post-full" data-post-full="cecm-duties">
+        <span className="post-tag">County Governance</span>
         <h2 id="postModalTitle">The Duties and Responsibilities of a CECM</h2>
         <p>
           A County Executive Committee Member (CECM) is the county-level
           equivalent of a Cabinet Secretary — a Minister — appointed by the
           Governor and vetted by the County Assembly to run a specific
-          docket, such as Finance, Youth Affairs, or Communications.
+          docket, such Finance, Youth Affairs, or Communications.
         </p>
         <h4>Policy Leadership</h4>
         <p>
-          Replace this with your own detailed write-up: how a CECM sets
+          Replace your own detailed write-up: how a CECM sets
           departmental policy direction, aligns it with the County
           Integrated Development Plan (CIDP), and reports to the Governor
           and County Assembly.
@@ -478,11 +478,11 @@ export default function Home() {
       </div>
 
       <!-- FULL TEXT: how-county-budget-works-->
-      <div class="post-full" data-post-full="how-county-budget-works">
-        <span class="post-tag">Public Finance</span>
+      <div className="post-full" data-post-full="how-county-budget-works">
+        <span className="post-tag">Public Finance</span>
         <h2>How Kiambu's County Budget Actually Works</h2>
         <p>
-          Replace this placeholder with your full write-up on the county
+          Replace  placeholder  your full write-up on the county
           budget cycle — from ward-level public participation forums,
           through the County Fiscal Strategy Paper, to the final
           Appropriation Act passed by the County Assembly.
@@ -494,13 +494,13 @@ export default function Home() {
       </div>
 
       <!-- FULL TEXT: youth-employment-policy -->
-      <div class="post-full" data-post-full="youth-employment-policy">
-        <span class="post-tag">Youth Affairs</span>
+      <div className="post-full" data-post-full="youth-employment-policy">
+        <span className="post-tag">Youth Affairs</span>
         <h2>What Real Youth Employment Policy Looks Like</h2>
         <p>
-          Replace this placeholder with your full write-up on practical
+          Replace placeholder your full write-up on practical
           youth employment interventions — skills programmes, access to
-          county tenders, entrepreneurship support, and partnerships with
+          county tenders, entrepreneurship support, and partnerships
           the private sector.
         </p>
         <h4>Skills That Match the Market</h4>
