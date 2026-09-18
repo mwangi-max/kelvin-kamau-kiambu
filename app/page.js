@@ -86,6 +86,7 @@ export default function Home() {
   const [form, setForm]           = useState({ name: '', email: '', subject: '', message: '' })
   const [sent, setSent]           = useState(false)
   const [sending, setSending]     = useState(false)
+  const [openPost, closePost]     = useState(false)
 
   const scrollTo = (id) => {
     setMenuOpen(false)
