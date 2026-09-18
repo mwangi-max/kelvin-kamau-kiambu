@@ -443,7 +443,6 @@ export default function Home() {
     </div>
   </div>
 
-  <!-- FULL-ARTICLE OVERLAY (shared by all posts) -->
   <div class="post-overlay" id="postOverlay" onclick="closePostOnBackdrop(event)">
     <div class="post-modal" role="dialog" aria-modal="true" aria-labelledby="postModalTitle">
       <button class="post-close" onclick="closePost()" aria-label="Close article">×</button>
