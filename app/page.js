@@ -399,8 +399,6 @@ export default function Home() {
     </div>
 
     <div className="post-grid">
-
-      <!-- POST 1 -->
       <article className="post-card" data-post="cecm-duties">
         <span className="post-icon" aria-hidden="true">🏛️</span>
         <span className="post-tag">County Governance</span>
@@ -415,7 +413,6 @@ export default function Home() {
         </button>
       </article>
 
-      <!-- POST 2
       <article class="post-card" data-post="how-county-budget-works">
         <span class="post-icon" aria-hidden="true">📊</span>
         <span class="post-tag">Public Finance</span>
@@ -427,10 +424,10 @@ export default function Home() {
         <button class="post-btn" onclick="openPost('how-county-budget-works')">
           Read the full article
         </button>
-      </article> -->
+      </article> 
 
-      <!-- POST 3 -->
-      <!-- <article class="post-card" data-post="youth-employment-policy">
+      
+      <article class="post-card" data-post="youth-employment-policy">
         <span class="post-icon" aria-hidden="true">🌟</span>
         <span class="post-tag">Youth Affairs</span>
         <h3 class="post-title">What Real Youth Employment Policy Looks Like</h3>
@@ -481,7 +478,7 @@ export default function Home() {
         </p>
       </div>
 
-      <!-- FULL TEXT: how-county-budget-works--
+      <!-- FULL TEXT: how-county-budget-works-->
       <div class="post-full" data-post-full="how-county-budget-works">
         <span class="post-tag">Public Finance</span>
         <h2>How Kiambu's County Budget Actually Works</h2>
