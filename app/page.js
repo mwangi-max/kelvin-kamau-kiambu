@@ -413,32 +413,32 @@ export default function Home() {
         </button>
       </article>
 
-      <article className="post-card" data-post="how-county-budget-works">
-        <span className="post-icon" aria-hidden="true">📊</span>
-        <span className="post-tag">Public Finance</span>
-        <h3 className="post-title">How Kiambu's County Budget Actually Works</h3>
-        <p className="post-excerpt">
-          From ward-level priorities to the final appropriation — tracing the
-          journey of public money before it reaches a project near you.
-        </p>
-        <button className="post-btn" onclick="openPost('how-county-budget-works')">
-          Read the full article
-        </button>
-      </article> 
+      // <article className="post-card" data-post="how-county-budget-works">
+      //   <span className="post-icon" aria-hidden="true">📊</span>
+      //   <span className="post-tag">Public Finance</span>
+      //   <h3 className="post-title">How Kiambu's County Budget Actually Works</h3>
+      //   <p className="post-excerpt">
+      //     From ward-level priorities to the final appropriation — tracing the
+      //     journey of public money before it reaches a project near you.
+      //   </p>
+      //   <button className="post-btn" onclick="openPost('how-county-budget-works')">
+      //     Read the full article
+      //   </button>
+      // </article> 
 
       
-      <article className="post-card" data-post="youth-employment-policy">
-        <span className="post-icon" aria-hidden="true">🌟</span>
-        <span className="post-tag">Youth Affairs</span>
-        <h3 className="post-title">What Real Youth Employment Policy Looks Like</h3>
-        <p className="post-excerpt">
-          Beyond slogans: the practical levers a county government can pull
-          to open doors young people in Kiambu.
-        </p>
-        <button className="post-btn" onclick="openPost('youth-employment-policy')">
-          Read the full article
-        </button>
-      </article>
+      // <article className="post-card" data-post="youth-employment-policy">
+      //   <span className="post-icon" aria-hidden="true">🌟</span>
+      //   <span className="post-tag">Youth Affairs</span>
+      //   <h3 className="post-title">What Real Youth Employment Policy Looks Like</h3>
+      //   <p className="post-excerpt">
+      //     Beyond slogans: the practical levers a county government can pull
+      //     to open doors young people in Kiambu.
+      //   </p>
+      //   <button className="post-btn" onclick="openPost('youth-employment-policy')">
+      //     Read the full article
+      //   </button>
+      // </article>
 
     </div>
   </div>
