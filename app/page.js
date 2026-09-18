@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import globalStyles from './globals.css'
+import CecmBlogSection from './CecmBlogSection'
 
 /* ── DATA ── */
 const NAV = [['About', 'about'], ['Portfolios', 'portfolios'], ['Experience', 'experience'], ['Education', 'education'], ['Contact', 'contact']]
@@ -389,7 +390,7 @@ export default function Home() {
       </section>
 
 
-
+          <CecmBlogSection />
 
              {/* ── GALLERY ── */}
       <section className="gallery section" id="gallery" aria-label="Photo gallery">
