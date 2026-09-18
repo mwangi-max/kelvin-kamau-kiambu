@@ -102,13 +102,12 @@ export default function Home() {
     document.body.style.overflow = 'hidden';
     overlay.querySelector('.post-close').focus();
   }
-  
 
   const closePost = () => {
-    var overlay = document.getElementById('postOverlay');
-    overlay.classList.remove('is-open');
-    document.body.style.overflow = '';
-  }
+  var overlay = document.getElementById('postOverlay');
+  if (overlay) overlay.classList.remove('is-open');
+  document.body.style.overflow = '';
+   };
 
   const closePostOnBackdrop = (event) => {
     if (event.target.id === 'postOverlay') closePost();
