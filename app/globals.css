@@ -406,6 +406,213 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .social-btn.tiktok { background: #000; color: white; }
 .social-btn.tiktok:hover { background: #333; }
 
+  /* ---- Theme tokens, matched to the site's dark green + gold identity for the blogging section ---- */
+  #insights {
+    --ink-deep: #0d2b1a;      /* site's meta-theme-color */
+    --ink-deeper: #08190f;
+    --gold: #c9a227;
+    --gold-soft: #e4c65e;
+    --paper: #f6f4ee;
+    --muted: #b9c9bd;
+    --radius: 14px;
+  }
+
+  .insights-section {
+    background: linear-gradient(180deg, var(--ink-deep) 0%, var(--ink-deeper) 100%);
+    color: var(--paper);
+    padding: 5rem 1.5rem;
+    font-family: 'Georgia', 'Times New Roman', serif;
+  }
+
+  .insights-container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .insights-header {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 3rem;
+  }
+
+  .insights-kicker {
+    display: inline-block;
+    color: var(--gold-soft);
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.75rem;
+  }
+
+  .insights-title {
+    font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+    line-height: 1.25;
+    margin: 0 0 1rem;
+    font-weight: 500;
+  }
+
+  .insights-title em {
+    font-style: italic;
+    color: var(--gold-soft);
+  }
+
+  .insights-intro {
+    font-family: Arial, sans-serif;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .post-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(201, 162, 39, 0.25);
+    border-radius: var(--radius);
+    padding: 2rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: border-color 0.25s ease, transform 0.25s ease;
+  }
+
+  .post-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-3px);
+  }
+
+  .post-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .post-tag {
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    color: var(--gold-soft);
+    letter-spacing: 0.03em;
+    margin-bottom: 0.6rem;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0 0 0.75rem;
+    font-weight: 500;
+  }
+
+  .post-excerpt {
+    font-family: Arial, sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 0 0 1.5rem;
+    flex-grow: 1;
+  }
+
+  .post-btn {
+    font-family: Arial, sans-serif;
+    background: transparent;
+    color: var(--gold-soft);
+    border: 1px solid var(--gold);
+    border-radius: 999px;
+    padding: 0.55rem 1.3rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .post-btn:hover {
+    background: var(--gold);
+    color: var(--ink-deeper);
+  }
+
+  .post-btn:focus-visible,
+  .post-close:focus-visible {
+    outline: 2px solid var(--gold-soft);
+    outline-offset: 2px;
+  }
+
+  /* ---- Overlay / modal for the full article ---- */
+  .post-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 15, 9, 0.72);
+    z-index: 999;
+    padding: 5vh 1.25rem;
+    overflow-y: auto;
+  }
+
+  .post-overlay.is-open {
+    display: block;
+  }
+
+  .post-modal {
+    position: relative;
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--ink-deep);
+    border: 1px solid rgba(201, 162, 39, 0.35);
+    border-radius: var(--radius);
+    padding: 2.75rem 2.25rem;
+    color: var(--paper);
+  }
+
+  .post-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.1rem;
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .post-close:hover {
+    color: var(--gold-soft);
+  }
+
+  .post-full {
+    display: none;
+  }
+
+  .post-full.is-active {
+    display: block;
+  }
+
+  .post-full h2 {
+    font-size: 1.6rem;
+    margin: 0.6rem 0 1.25rem;
+    font-weight: 500;
+  }
+
+  .post-full h4 {
+    font-family: Arial, sans-serif;
+    color: var(--gold-soft);
+    font-size: 0.95rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .post-full p {
+    font-family: Arial, sans-serif;
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: var(--paper);
+    margin: 0 0 0.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .post-card { transition: none; }
+  }
+
 /* ── CONTACT ── */
 .contact { background: var(--forest); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4.5rem; align-items: start; }
